@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<!--Shitty temporary page-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Baldiplier sings to you</title>
+
+		<style>
+			body {
+				background-color: black;
+			}
+			img {
+				margin: auto;
+				display: block;
+				padding-top: 50px;
+			}
+
+			p {
+				color: white;
+				text-align: center;
+			}
+		</style>
+
+		<script>
+			function playMusic() {
+				rem.play();
+			}
+		</script>
+	</head>
+
+	<body>
+		<img src="Images/baldlezar.png"
+			 width="500" height="500">
+
+		<br>
+
+		<img src="Images/play.png"
+			 width="100" height="100"
+			 onclick="playMusic()">
+
+		<audio id="rem">
+			<source src="Audio/baldlezar.mp3" type="audio/mpeg">
+		</audio>
+
+		<br> 
+		<br>
+
+		<p>
+			rise up baldiplier nation
+		</p>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: fontnite;
+    src: url(../Fonts/fFeelingSoon.ttf);
+}
+
+* {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: fontnite;
+}
+
+img {
+    margin: auto;
+    display: block;
+    aspect-ratio: 1 / 1;
+}
+
+input {
+    width: 100px;
+}
